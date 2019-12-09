@@ -1,0 +1,28 @@
+{
+  "useTaobaoRegistry": false,
+  "packageManager": "npm",
+  "useConfigFiles": true,
+  "cssPreprocessor": "less",
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard",
+      "lintOn": [
+        "save"
+      ]
+    }
+  },
+  "configs": {
+    "vue": {
+      "publicPath": "/",
+      "lintOnSave": true,
+      "runtimeCompiler": false,
+      "transpileDependencies": [],
+      "productionSourceMap": false,
+      "devServer": {
+        "open": true,
+        "host": "0.0.0.0"
+      }
+    }
+  }
+}
